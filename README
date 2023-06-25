@@ -1,0 +1,22 @@
+Character Assembler
+This project is a JavaScript function called assembleCharacters that fetches character data from a specified URL and dynamically creates elements based on the received data. It allows users to view character names, images, and vote for their favorite characters.
+
+How It Works
+When the assembleCharacters function is called, it sends a fetch request to the specified URL (http://localhost:3000/characters) to retrieve character data.
+The fetched data, is parsed and processed.
+For each character in the data, a paragraph (<p>) element is created and populated with the character's name.
+The paragraph element is appended to a container element with the ID 'cont'.
+An event listener is added to each paragraph element, so when it is clicked, the listener is triggered.
+Upon clicking a character, an image element (<img>) with the character's image URL is created and appended to the paragraph element.
+A vote count element (<a>) is also created and appended to the paragraph element, displaying the current number of votes for the character.
+A reset button (<button>) is created and added to the paragraph element, allowing users to reset the vote count.
+Clicking the reset button increments the vote count by 1 and updates the display accordingly.
+The event listener for the paragraph element is set to trigger only once, ensuring that users can only vote once for each character.
+The assembleCharacters function is called when the HTML content has finished loading.
+
+TECHNOLOGIES
+JavaScript
+Fetch API
+HTML
+Please make sure that your project environment supports these technologies.
+
