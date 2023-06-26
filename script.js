@@ -2,7 +2,7 @@
 function assembleCharacters(){
     //Fetch request for the provided url
     return fetch('http://localhost:3000/characters')
-    .then(res => res.json())
+    .then(response => response.json())
     .then(characters => characters.forEach(value => {
         console.log(value.name)
         //new element and assingning it the name value, then appending it
