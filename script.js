@@ -31,8 +31,8 @@ function assembleCharacters(){
                 count = count + 1
                 win.innerText =count
 
-            } )
-            animal.appendChild(button)
+            } );
+            animal.appendChild(button);
 
 
         },{once:true})
