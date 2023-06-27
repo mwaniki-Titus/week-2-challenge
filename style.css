@@ -2,4 +2,84 @@
 body
 {
 background-color: blueviolet;
+
+   
 }
+header {
+    background-color:blueviolet;
+    color: rgb(173, 22, 22);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Character Container */
+  #cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Character Name */
+  p {
+    cursor: pointer;
+    padding: 10px;
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Character Image */
+  p img {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+  
+  /* Vote Count */
+  p a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Vote Button */
+  p button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Form */
+  .container {
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: wheat;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
